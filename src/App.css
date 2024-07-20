@@ -1,0 +1,49 @@
+.app{
+  display: flex;
+  justify-content: space-between ;
+}
+.app>div{
+  width: 50%;
+}
+.invoice-top-section{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.invoice-top-section > :first-child{
+  color: blueviolet;
+}
+.form-container{
+  padding: 10px;
+}
+h2{
+  background-color: cadetblue;
+  padding: 5px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.line-item-details > table > tbody > tr > td > input{
+  width: 90%;
+}
+
+form > div{
+  display: flex;
+  align-items: center;
+}
+form > div > label{
+  flex: 0 0 150px; /* Adjust the label width as needed */
+  margin-right: 10px;
+  text-align: right;
+}
+form > div > input[type='text']{
+  flex: 1 0 100px;
+}
+
+.invoice-summary{
+  display: flex;
+  justify-content: space-between;
+}
